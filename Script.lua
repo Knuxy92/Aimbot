@@ -152,7 +152,7 @@ spawn(function()
                                         if getgenv().setting['LockPlayers'] == false then
                                             Playersaimbot = v.Name
                                             PlayersPosition = v.Character.HumanoidRootPart.Position
-                                            v.Character.HumanoidRootPart.Size = Vector3.new(5,5,5)
+                                            v.Character.HumanoidRootPart.Size = Vector3.new(50,50,50)
                                         end
                                     end
                                 end
